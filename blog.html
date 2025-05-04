@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Technical articles and personal insights about web development and software engineering">
+    <title>Blog - Vamsi Sangana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Vamsi Sangana</a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="visually-hidden">Menu</span>
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation" data-visible="false">
+                <ul role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="blog-intro">
+            <h1>Technical Blog</h1>
+            <p>Sharing insights and experiences in software development, machine learning, and data science.</p>
+        </section>
+
+        <section id="featured-post">
+            <article class="blog-post featured">
+                <div class="post-image">
+                    <img src="blog-ml.png" alt="Machine Learning Journey" class="blog-image">
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">May 1, 2025</span>
+                        <span class="read-time">8 min read</span>
+                    </div>
+                    <h2>My Journey into Machine Learning</h2>
+                    <p>In this article, I share my experience developing fraud detection models and how it transformed my understanding of real-world data problems. From initial concept to deployment, learn about the challenges faced and solutions implemented.</p>
+                    <div class="post-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Science</span>
+                    </div>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+
+        <section id="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="post-grid">
+                <article class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">April 28, 2025</span>
+                        <span class="read-time">6 min read</span>
+                    </div>
+                    <h3>Building a Data Visualization Tool with D3.js</h3>
+                    <p>A deep dive into creating interactive data visualizations using D3.js, including best practices and performance optimization techniques.</p>
+                    <div class="post-tags">
+                        <span class="tag">D3.js</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Data Viz</span>
+                    </div>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">April 15, 2025</span>
+                        <span class="read-time">5 min read</span>
+                    </div>
+                    <h3>Implementing Microservices with Spring Boot</h3>
+                    <p>Exploring the architecture and implementation of scalable microservices using Spring Boot and Docker.</p>
+                    <div class="post-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Microservices</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <!-- <section id="categories">
+            <h2>Categories</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <span class="post-count">5 posts</span>
+                </a>
+                <a href="#" class="category-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Development</h3>
+                    <span class="post-count">8 posts</span>
+                </a>
+                <a href="#" class="category-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Science</h3>
+                    <span class="post-count">6 posts</span>
+                </a>
+                <a href="#" class="category-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Architecture</h3>
+                    <span class="post-count">4 posts</span>
+                </a>
+            </div>
+        </section> -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/vamsisangana53" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vamsi-reddy-3264b1223" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Vamsi Sangana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

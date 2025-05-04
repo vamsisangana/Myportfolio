@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Get in touch with me for collaborations or opportunities">
+    <title>Contact - Vamsi Sangana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Vamsi Sangana</a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="visually-hidden">Menu</span>
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation" data-visible="false">
+                <ul role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-intro">
+            <h1>Get in Touch</h1>
+            <p>I'm always interested in discussing new opportunities in software development and data science.</p>
+        </section>
+
+        <div class="contact-container">
+            <section id="contact-methods" class="contact-grid">
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:vamsisangana53@gmail.com">vamsisangana53@gmail.com</a></p>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/vamsi-reddy-3264b1223" target="_blank" rel="noopener">Connect on LinkedIn</a></p>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/vamsisangana53" target="_blank" rel="noopener">Follow on GitHub</a></p>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-globe"></i>
+                    <h3>Portfolio</h3>
+                    <p><a href="https://vamsisangana53.github.io/" target="_blank" rel="noopener">vamsisangana53.github.io</a></p>
+                </div>
+            </section>
+
+            <section id="contact-form-section">
+                <h2>Send a Message</h2>
+                <form id="contact-form" class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+
+            <section id="availability">
+                <h2>Current Status</h2>
+                <div class="availability-status">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Available for full-time opportunities in software development and data science roles.</p>
+                </div>
+                <div class="response-time">
+                    <i class="fas fa-reply"></i>
+                    <p>Typical response time: 24-48 hours</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/vamsisangana53" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vamsi-reddy-3264b1223" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Vamsi Sangana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
